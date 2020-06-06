@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <title>Signin</title>
+    <style>
+        
+    body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+.container{
+    background-image: linear-gradient(azure,cyan);
+    width: 50%;
+    margin: 50px auto;
+    padding: 70px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 4px 4px grey;
+    border-radius: 10px;
+}
+
+h1{
+    color: purple;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px gray;
+}
+.row{
+    margin: 20px;
+}
+.col input{
+    margin: 10px;
+    border: 2px solid grey;
+    padding: 7px;
+    width: 50%;
+    border-radius: 10px;
+}
+.col input::placeholder{
+    font-size: 16px;
+}
+.col label{
+    font-size: 18px;
+    font-weight: 600;
+}
+.col button{
+    border: none;
+    padding: 10px ;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: royalblue;
+    color: white;
+}
+.col button:hover{
+    background-color: white;
+    color: royalblue;
+    box-shadow: 2px 2px 4px grey;
+    transition: all .5s;
+}
+
+@media only screen and (max-width: 700px) {
+    .container{
+    margin: 50px auto;
+    width: 250px;
+    padding: 70px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 4px 4px grey;
+}
+
+.col label{
+    display: none;
+}
+.col input{
+    width: 250px !important;
+}
+}
+</style>
+</head>
+<body>
+    <form action="">
+    <div class="container">
+        <h1>Login Your Account</h1>
+        <div class="row">
+            <div class="col">
+                <label for="username">User Name</label>
+                <input type="email" id="email" placeholder="enter email" required>
+            </div>
+        </div>
+            <div class="row">
+            <div class="col">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="enter password" maxlength="8" required>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col">
+                <button type="submit" formaction="successful.html">Log in</button>
+                <button type="reset" formaction="">Forget Password</button>
+            </div>
+        </div>
+    </div>
+    
+</form>
+</body>
+</html>

@@ -1,0 +1,305 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+   background-color: turquoise;
+   box-shadow: 3px 3px 4px grey;
+   padding: 20px !important;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   position: sticky !important;
+   top: 0;
+   z-index: 1;
+}
+navbar-toggler{
+    color: white !important;
+}
+
+.navbar h3{
+    text-shadow: 7px 7px 4px grey;
+    font-weight: 600 !important;
+    color: azure;
+
+}
+.fa-atom{
+    color: white !important;
+    font-size: 32px;
+    margin: 10px;
+}
+.navbar-nav li{
+    font-weight: 500;
+    font-size: large;
+    text-shadow: 2px 2px 4px grey;
+}
+.navbar-nav a{
+    color: azure !important;
+    margin: 7px;
+    text-decoration: none;
+}
+.navbar-nav a:hover{
+    
+    color: turquoise !important;
+    transition: all .5s;
+}
+.btn{
+    margin: 0px 10px;
+    border-radius: 40px !important;
+}
+.navbar-nav{
+    align-items: center;
+}
+.dropdown-menu{
+    background-color: turquoise !important;
+}
+.dropdown-menu a{
+    color: azure;
+    text-shadow: 2px 2px 3px silver;
+}
+.dropdown-menu a:hover{
+    background-color: #48c9b0;
+    color: azure;
+}
+.nav{
+    justify-content: space-around;
+}
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0px 100px 0px;
+    padding: 50px;
+}
+.profile img{
+    box-shadow: 10px 10px 5px slategray;
+    border-radius: 40px;
+}
+.pro-text h1{
+    font-size: 52px;
+    font-weight: 800;
+    color: purple;
+    text-shadow: 2px 2px 4px grey;
+}
+.pro-text h5{
+    color: blueviolet;
+}
+.journey{
+    margin: 80px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+.journey a{
+    background-color: turquoise;
+    color: azure;
+    padding: 15px;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none !important;
+    font-size: 22px;
+}
+.journey a:hover{
+    background-color:red ;
+    color: azure;
+}
+.top-courses{
+    justify-content: center;
+    padding: 100px 20px 50px 20px;
+    margin: 0px auto;
+    background-color: #f0f0f0;
+}
+#upcoming{    
+    padding-top: 20px !important;
+}
+.top-courses h1{
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 30px auto;
+    text-align: center;
+    color: purple;
+    text-shadow: 2px 4px 4px gray;
+}
+.card{
+    margin: 10px auto;
+    width: 400px;
+}
+
+.card-title{
+    font-size: 22px;
+    font-weight: 700;
+    color: darkblue;
+}
+
+.card-body{
+    text-align: center;
+}
+.fa-lightbulb{
+    font-size: 102px;
+}
+.process{
+    text-align: center;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.process img{
+    width: 100px;
+    margin: 10px auto;
+}
+.process h2{
+    margin: 0 auto 40px auto;
+    display: block;
+    width: 300px;
+    font-weight: 700;
+}
+.process h3{
+    font-size: 32px;
+    font-weight: 600;
+}
+.service{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 100px ;
+    justify-content: center;
+    
+}
+.service h1{
+    display: block ;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+}
+.service div{
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    text-align: center;
+    border: 2px solid springgreen;
+    border-radius: 20px;
+    box-shadow: 2px 4px 4px grey;
+}
+.service i{
+    margin: 20px;
+    font-size: 52px;
+    padding: 30px;
+    color: purple;
+}
+.socail-links{
+    margin-top: 100px;
+    padding: 10px 0px 50px 0px;
+    background-image:linear-gradient(whitesmoke,silver) !important;
+}
+.socail-links h1{
+    margin: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+.socail-links i{
+    font-size: 40px;
+    margin: 40px;
+}
+.fa-facebook{
+    color: #3b5999;
+}
+.fa-twitter-square{
+    color: #55acee;
+}
+.fa-linkedin-in{
+    color: #0077B5;
+}
+.fa-instagram-square{
+    color: #e4405f;
+}
+.fa-pinterest-square{
+    color: #bd081c;
+}
+.fa-whatsapp-square{
+    color: #25D366;
+}
+.footer{
+    background-color: #25272e;
+    color: white !important;
+    padding: 100px 0;
+}
+.footer-follow{
+    text-align: center;
+    
+}
+.footer-follow >div{
+    display: flex;
+}
+.footer-follow i{
+    font-size: 22px;
+    padding: 0px;
+}
+.copyri{
+    background-color: turquoise;
+}
+
+
+
+
+
+/* THiS CSS FOR COURSE CATALOG LINKS(other pages css*) */
+.heading{
+    margin: 100px auto;
+    text-align: center;
+}
+.heading h1{
+    font-weight: 900 !important;
+    color: purple;
+}
+.heading a{
+    color: rebeccapurple !important;
+}
+
+/* Media query */
+
+@media only screen and (max-width: 750px) {
+    .profile{
+        flex-direction: column-reverse;
+    }
+    .pro-img img{
+        width: 450px;
+    }
+    .pro-text h1{
+        margin-top: 20px;
+        font-size: 42px !important;
+    }
+    .socail-links h1{
+        font-size: 32px;
+        width: 100%;
+    }
+    .heading h1{
+        font-size: 32px !important;
+    }
+    #footer-col-2{
+        visibility: hidden;
+    }
+    .process img{
+        width: 190px !important;
+    }
+}
+@media only screen and (max-width: 670px) {
+    .nav a{
+        margin-left: 0px;
+        margin: 7px;
+        width: 130px;
+    }
+    .profile{
+        flex-direction: column-reverse;
+    }
+    .pro-img img{
+        margin:0px auto;
+        width: 300px;
+    }
+    .pro-text h1{
+        margin-top: 20px;
+        font-size: 22px !important;
+    }
+    .socail-links h1{
+        border: 2px solid;
+        margin-left: 0px;
+        font-size: 22px;
+    }
+}
